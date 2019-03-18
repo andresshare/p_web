@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'root_p_web.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_contactos',
         'USER': 'dbuser360',
-        'PASSWORD': '8010Andres*',
+        'PASSWORD': '80110Andres*',
         'HOST': 'localhost',
         'PORT': '',
     }
